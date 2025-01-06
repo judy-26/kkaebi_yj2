@@ -10,7 +10,6 @@ public interface NoticeUsMapper {
     
     List<NoticeUsVO> getAllUsNotice(); // 전체 조회
     
-	NoticeUsVO getNoticeUsDetail(int seq_no);
-
+    NoticeUsVO getNoticeUsDetail(int seq_no);
     
 }
